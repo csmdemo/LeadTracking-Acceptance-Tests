@@ -114,8 +114,8 @@ this.ScenarioInitialize(scenarioInfo);
 #line 18
  testRunner.Given("I have a service inquiry repository", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 19
- testRunner.When("I perform a service inquiry search where first name is FirstName1 and last name i" +
-                    "s LastName1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I perform a service inquiry search where first name is \"FirstName1\" and last name" +
+                    " is \"LastName1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 20
  testRunner.Then("Search results has count greater than 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

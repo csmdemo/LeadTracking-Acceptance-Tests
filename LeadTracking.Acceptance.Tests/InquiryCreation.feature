@@ -16,5 +16,5 @@ Scenario: Create Inquiry Record
 @existingContact
 Scenario: Search for Existing Record
 	Given I have a service inquiry repository
-	When I perform a service inquiry search where first name is FirstName1 and last name is LastName1
+	When I perform a service inquiry search where first name is "FirstName1" and last name is "LastName1"
 	Then Search results has count greater than 0

@@ -95,17 +95,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\InquiryCreationSteps.cs" />
     <Compile Include="InquiryCreation.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>InquiryCreation.feature</DependentUpon>
     </Compile>
-    <Compile Include="Inquiry\Action\RecordServiceInformationInquiryWith.cs" />
-    <Compile Include="Inquiry\Action\SearchServiceInquiryWithFirstAndLastNameSetAt.cs" />
-    <Compile Include="Inquiry\Consequence\ServiceInquiryExitsInDatabase.cs" />
-    <Compile Include="Inquiry\Consequence\ServiceInquirySearchResultsHasCountGreaterThan.cs" />
-    <Compile Include="Inquiry\Context\GivenServiceInquiryRepositorySetAt.cs" />
-    <Compile Include="Inquiry\Context\PersonServiceInquiryInformationWith.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
