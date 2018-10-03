@@ -2,7 +2,11 @@
 
 ### Overview
 The following solution demonstrates creating Acceptance Tests using the Behavior Driven Test development features of 
-SpecFlow.
+[SpecFlow] BDD Framework. 
+The project represents a sample lead tracking application, which could be used to store information about an inquiry about an organizations services, potentially as part of a CRM application. In the sample, only a single feature is demonstrated for brevity.
+
+The BDD \(Behavior Driven Development\) methodology is a great fit for [Acceptance Testing] because it defines tests in a way that describe features using a business vocabulary, and abstracts away implementation details. 
+
 
 The solution contains the following projects.
 
@@ -171,7 +175,8 @@ MIT
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-
+   [SpecFlow]: <https://specflow.org>
+   [Acceptance  Testing]: <https://www.agilealliance.org/glossary/acceptance/>
    [dill]: <https://github.com/joemccann/dillinger>
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
    [john gruber]: <http://daringfireball.net>
