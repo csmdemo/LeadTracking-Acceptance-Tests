@@ -3,10 +3,12 @@
 ### Overview
 The following solution demonstrates creating Acceptance Tests using the Behavior Driven Test development features of 
 [SpecFlow] BDD Framework. 
+
 The project represents a sample lead tracking application, which could be used to store information about an inquiry about an organizations services, potentially as part of a CRM application. In the sample, only a single feature is demonstrated for brevity.
 
 The BDD \(Behavior Driven Development\) methodology is a great fit for [Acceptance Testing] because it defines tests in a way that describe features using a business vocabulary, and abstracts away implementation details. 
 
+In this example, the following 
 
 The solution contains the following projects.
 
@@ -16,6 +18,21 @@ The solution contains the following projects.
 * **LeadTracking.Tests.Core** - Contains common helpers for testing, including test data and setup of a mock repository for ServiceInquiry entities.
     *Note*: The solution does not use real data persistence, instead a mock repository is created and data is stored in memory.
 *   **LeadTracking.Acceptance.Tests** - This project contains the SpecFlow tests. This project is the driving motivation for the demonstration, and should be of most interest.
+
+[SpecFlow] allows us to define feature tests, which are based on user stories. Features are broken down into scenarios which define the actual accteptance test, using a vocabulary commonly used for acceptance test (Given-When-Then).
+
+In this example, we start with the following user story
+
+*As a sales rep*
+*I want to record and inquiry*
+*So that I can to sell services*
+
+We then define our acceptance test using the (Given-When-Then) format.
+In this example, the acceptance test we use on a high level is
+
+*Given a person communicates with me about services*
+*When I record their information*
+*Then I can reference the Inquiry record I saved*
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
@@ -27,7 +44,8 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
   - See HTML in the right
   - Magic
 
-# New Features!
+# Usage
+
 
   - Import a HTML file and watch it magically convert to Markdown
   - Drag and drop images (requires your Dropbox account be linked)
