@@ -1,2 +1,2 @@
-# LeadTracking-Acceptance-Tests
-Sample lead tracking application using SpecFlow BDD Feature for Acceptance Testing
+# Lead-Tracking-BDD-Examples
+Using SpecFlow and BDD for Acceptance Testing in a sample Lead Tracking Application

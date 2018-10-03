@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LeadTracking.Domain.Models.Common.PersonName" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Common\PersonName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeadTracking.Domain.Models.Common.PhoneNumber" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAgAAAAAAGAAAAAIAAACAAAAAAAiA=</HashCode>
+      <FileName>Common\PhoneNumber.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LeadTracking.Domain.Models.NewInquiry" Collapsed="true">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAIAAAEAACAAAAAAAAAAAAEACAAAAAgAAAIA=</HashCode>
+      <FileName>NewInquiry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeadTracking.Domain.Models.Common.EmailAddress" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAIAAAAAIAAAAQAAAAAAiA=</HashCode>
+      <FileName>Common\EmailAddress.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
