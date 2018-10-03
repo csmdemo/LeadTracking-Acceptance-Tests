@@ -1,10 +1,24 @@
 # Sample Lead Tracking Application using SpecFlow BDD feature for Unit Tests
 
 ### Overview
-The following solution demonstrates creating Acceptance Tests using the Behavior Driven Test development features of SpecFlow. The solution contains the following projects
+The following solution demonstrates creating Acceptance Tests using the Behavior Driven Test development features of 
+SpecFlow. 
+
+The solution contains the following projects.
     - **LeadTracking.Core**
-Defines interface for objects used for persistanssce
-    
+Defines interface for objects used for persistence
+    - **LeadTracking.Data**
+Concrete implementation of Entity objects
+    - **LeadTracking.Domain.Models**
+Domain models \(which would be consumed by application\). Also included are common value types, and mappers for mapping Domain models, to entities
+    - **LeadTracking.Tests.Core**
+    Contains common helpers for testing, including test data and setup of a mock repository for ServiceInquiry entities.
+    *Note*: The solution does not use real data persistence, instead a mock repository is created and data is stored in memory.
+      - **LeadTracking.Acceptance.Tests**
+This project contains the SpecFlow tests. This project is the driving motivation for the demonstration, and should be of most interest.
+
+Concrete implementation of Entity objects  
+Concrete implementation of Entity objects    
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
