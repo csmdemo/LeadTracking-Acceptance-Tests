@@ -2,7 +2,7 @@
 
 ### Overview
 The following solution demonstrates creating Acceptance Tests using the Behavior Driven Test development features of 
-SpecFlow. 
+SpecFlow.
 
 The solution contains the following projects.
     - **LeadTracking.Core**
