@@ -23,9 +23,36 @@ The solution contains the following projects.
 
 In this example, we start with the following user story
 
-*As a sales rep*
+*As a person who sells services*
 *I want to record and inquiry*
-*So that I can to sell services*
+*So that I can use the information to sell services*
+
+From the user story, we can broadly determine two things. First, we need to store information, second, we need the ability to access the stored information.
+
+We are then ready to define our acceptance tests using the (Given-When-Then) format.
+
+In this example, we have two scenarios, store the information, and retrieve the stored information. This elicits the following acceptance criteria for the respective scenarios.
+
+**Scenario:** Store the information
+
+***Given** I have an inquiry about services from a person*
+***When**  I record the service inquiry*
+***Then**  The record is created*
+
+**Scenario:** Retrieve the information
+
+***Given** I can search service inquiries*
+***When** I perform a search of a recorded inquiry*
+***Then** The service inquiry information is returned*
+
+
+
+
+
+
+
+
+
 
 We then define our acceptance test using the (Given-When-Then) format.
 In this example, the acceptance test we use on a high level is
@@ -33,6 +60,7 @@ In this example, the acceptance test we use on a high level is
 *Given a person communicates with me about services*
 *When I record their information*
 *Then I can reference the Inquiry record I saved*
+
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
