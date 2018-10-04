@@ -17,7 +17,8 @@ namespace LeadTracking.Acceptance.Tests
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("InquiryCreation", Description="\tAs a sales rep\r\n\tI want to record and inquiry\r\n\tSo that I can to sell services", SourceFile="InquiryCreation.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("InquiryCreation", Description="\tAs a person who sells services\r\n\tI want to record and inquiry\r\n\tSo that I can us" +
+        "e the information to sell services", SourceFile="InquiryCreation.feature", SourceLine=0)]
     public partial class InquiryCreationFeature
     {
         
@@ -30,7 +31,8 @@ namespace LeadTracking.Acceptance.Tests
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "InquiryCreation", "\tAs a sales rep\r\n\tI want to record and inquiry\r\n\tSo that I can to sell services", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "InquiryCreation", "\tAs a person who sells services\r\n\tI want to record and inquiry\r\n\tSo that I can us" +
+                    "e the information to sell services", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

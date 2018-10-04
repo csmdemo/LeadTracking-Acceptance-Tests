@@ -1,7 +1,7 @@
 ﻿Feature: InquiryCreation
-	As a sales rep
+	As a person who sells services
 	I want to record and inquiry
-	So that I can to sell services
+	So that I can use the information to sell services
 
 
 
